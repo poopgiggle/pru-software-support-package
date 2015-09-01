@@ -7,13 +7,15 @@ Right now, the only addition is a Makefile that should automate building PRU cod
 this working are:
 
 1. Download CCS w/ PRU tools (needed for compiler, headers, libraries)
-2. Copy the Makefile to the directory where the project is
-3. Set CCSDIR to the directory where CCS is installed
-4. Set BASEDIR to the pru-software-support-package root directory
+2. Set CCSDIR to the directory where CCS is installed
+3. Set BASEDIR to the pru-software-support-package root directory
+4. Copy the Makefile to the directory where the project is
 5. Set SRCFILE to the name of the C source file
 6. Run make
 7. Copy text.bin and data.bin to BBB
 8. Use something like PyPRUSS to run the example on the BBB
+
+You should obviously only have to do 1-3 once.
 
 This project is poorly tested, and almost certainly unnecessary.
 
