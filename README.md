@@ -19,6 +19,10 @@ You should obviously only have to do 1-3 once.
 
 This project is poorly tested, and almost certainly unnecessary.
 
+UPDATE: the project also includes a device tree overlay source file at
+pru_cape/BB-BONE-PRU-09-00A0.dts. Compile and load it the same way you would any other
+DeviceTree overlay. 
+
 
 
 Original ReadMe.txt:
